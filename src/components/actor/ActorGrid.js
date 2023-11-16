@@ -5,8 +5,9 @@ import { FlexGrid } from '../Styled';
 
 const ActorGrid = ( { data } ) => {
   return(
-    <FlexGrid>
+    <FlexGrid> {/*styled component*/}
 
+    {/*displaying the fetched data */}
       {data.map(( {person} ) => (
         <ActorCard 
         key={person.id} 

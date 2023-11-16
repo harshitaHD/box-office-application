@@ -8,15 +8,19 @@ import Starred from './pages/Starred';
 
 const App = () => {
   return (
+    /* switch displays the components of paths given */
       <Switch>
+      {/*The path for home page */}
       <Route exact path='/'>
       <Home />
       </Route>
 
+      {/*The path for starred page */}
       <Route exact path='/starred'>
       <Starred />
       </Route>
 
+      {/*The path for show details page */}
       <Route exact path='/show/:id'>
       <Show />
       </Route>

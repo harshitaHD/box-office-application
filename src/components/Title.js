@@ -3,7 +3,7 @@ import { TitlePage } from './Styled'
 
 const Title = ( {title, subtitle} ) => {
   return (
-    <TitlePage>
+    <TitlePage> {/*TitlePage is styled component*/}
       <h1>
       {title}
        </h1>
